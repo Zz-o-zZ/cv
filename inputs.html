@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Input Test</title>
+</head>
+    <body>
+        <form class="" action="index.html" method="post">
+            <label>Your Name:</label>
+            <input type="text" name="" value="">
+            <input type="color" name="" value=""><br>
+            <label>Do you want to sign up?</label>
+            <input type="checkbox" name="" value=""><br>
+            <label>Email: </label>
+            <input type="email" name="" value="">
+            <label>Password: </label>
+            <input type="password" name="" value="">
+            <br>
+            <input type="submit" name="">
+
+            <br>
+<label for="start">Start date:</label>
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2018-01-01" max="2018-12-31">
+
+            <br>
+<label for="avatar">Choose a profile picture:</label>
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+            <br>
+<label for="start">Start month:</label>
+<input type="month" id="start" name="start"
+       min="2018-03" value="2018-05">
+            <br>
+<fieldset>
+    <legend>Select a maintenance drone:</legend>
+
+    <div>
+      <input type="radio" id="huey" name="drone" value="huey"
+             checked>
+      <label for="huey">Huey</label>
+    </div>
+
+    <div>
+      <input type="radio" id="dewey" name="drone" value="dewey">
+      <label for="dewey">Dewey</label>
+    </div>
+
+    <div>
+      <input type="radio" id="louie" name="drone" value="louie">
+      <label for="louie">Louie</label>
+    </div>
+</fieldset>
+            <br>
+
+<label for="week">Choose a week in May or June:</label>
+<input type="week" name="week" id="camp-week"
+       min="2018-W18" max="2018-W26" required>
+
+        </form>
+    </body>
+</html>
